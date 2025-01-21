@@ -1,0 +1,37 @@
+.login-image{
+    transform: scale(1.5);
+    position: relative;
+    z-index: -5;
+}
+.register-form-container, .login-form-container{
+    justify-content: center;
+}
+body{
+    background-color: #F8F8F8;
+}
+.button{
+    background-color: #389840;
+    color:white;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: #2b7731;
+    color:white;
+
+}
+.register-link{
+    display: flex;
+    margin-left: 3.2rem;
+}
+.to-login{
+    height: fit-content;
+    margin-left: 20px;
+    font-size: 17px;
+    transform: translateY(50%);
+}
+
+.login-fields{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}

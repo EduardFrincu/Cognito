@@ -1,0 +1,59 @@
+ .math-blitz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } 
+
+  .math-blitz {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 35%;
+
+    h1 {
+      color: #333;
+    }
+    
+    .problem {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+    
+    .options button {
+      background-color: #389840;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .options button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .options button:hover:not(:disabled) {
+      background-color: #2b7731;
+    }
+    
+    .progress-bar {
+      height: 10px;
+      background-color: #389840;
+      transition: width 1s linear;
+      border-radius: 5px 5px 0 0;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      color: #333;
+    }
+  }
+  
+  
